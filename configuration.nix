@@ -120,21 +120,25 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-  neovim
-  kitty
-  chromium
-  git
-  zsh
-  lazygit
-  gh
-  nodejs_20
-  python3
-  pipx
-  vlc
-  libgcc
-  zig
+    wget
+    neovim
+    kitty
+    chromium
+    git
+    zsh
+    lazygit
+    gh
+    nodejs_20
+    python3
+    pipx
+    vlc
+    libgcc
+    zig
+    wl-clipboard
+    waybar
+    ripgrep
+    fd
+    go
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
