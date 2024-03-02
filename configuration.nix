@@ -135,10 +135,25 @@
     libgcc
     zig
     wl-clipboard
-    waybar
     ripgrep
     fd
     go
+    htop
+    yt-dlp
+
+    # Hyprland
+    waybar
+    rofi-wayland
+    dunst
+    swww
+    swaylock-effects
+    hyprpicker
+    grimblast
+    slurp
+    swappy
+    xdg-desktop-portal-hyprland
+    brightnessctl
+    pavucontrol
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
