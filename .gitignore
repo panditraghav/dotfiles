@@ -61,7 +61,6 @@ pulse
 QtProject.conf
 rofi
 session
-starship.toml
 systemd
 systemmonitorrc
 systemsettingsrc
