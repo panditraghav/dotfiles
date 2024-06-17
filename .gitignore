@@ -76,3 +76,13 @@ xsettingsd
 yay
 yin_yang
 .gsd-keyboard.settings-ported
+.config/Code/
+.config/baloofileinformationrc
+.config/create-next-app-nodejs/
+.config/gh/
+.config/kiorc
+.config/kservicemenurc
+.config/ktrashrc
+.config/speech-dispatcher/
+.config/unity3d/
+.config/zed/
