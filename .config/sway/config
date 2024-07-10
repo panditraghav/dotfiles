@@ -45,7 +45,7 @@ hide_edge_borders smart
 
 ### Output configuration
 #
-output * bg ~/Pictures/Wallpapers/night-full-moon.jpg fill
+output * bg ~/Pictures/Wallpapers/winter-forest-scenery.jpg fill
 #
 # Example configur+ation:
 #
@@ -102,7 +102,7 @@ input type:keyboard {
     bindsym $mod+b exec thorium-browser
 
     # Start file manager
-    bindsym $mod+e exec nautilus -w
+    bindsym $mod+e exec thunar
 
     # Kill focused window
     bindsym $mod+q kill
