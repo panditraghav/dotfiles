@@ -7,6 +7,7 @@ alias ls="exa --icons --git-ignore"
 alias la="exa --all --long --header --icons"
 alias lt="exa --long --header --tree --level=2 --icons --git-ignore"
 alias lta="exa --all --long --header --tree --level=2 --icons"
+alias lg="lazygit"
 
 abbr -a nm nmtui
 abbr -a sn shutdown now
@@ -38,3 +39,14 @@ set fish_cursor_external line
 # The following variable can be used to configure cursor shape in
 # visual mode, but due to fish_cursor_default, is redundant here
 set fish_cursor_visual block
+
+# pnpm
+set -gx PNPM_HOME "/home/raghav/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+    set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
