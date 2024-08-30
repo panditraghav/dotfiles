@@ -43,6 +43,9 @@ default_border pixel 2
 default_floating_border normal
 hide_edge_borders smart
 
+# Startup
+exec dunst &
+
 ### Output configuration
 #
 output * bg ~/Pictures/Wallpapers/winter-forest-scenery.jpg fill
