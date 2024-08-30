@@ -45,7 +45,7 @@ button:hover {
 /* you can set a style on hover for any module like this */
 
 #workspaces button {
-  padding: 0px 0px;
+  padding: 0px 4px;
   background-color: transparent;
   color: #ffffff;
 }
