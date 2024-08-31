@@ -27,7 +27,7 @@ WidgetsLeft: [Workspaces, Title]
 # Widgets to center
 WidgetsCenter: [Time]
 # Widgets to display on the right side
-WidgetsRight: [Tray, Audio, Bluetooth, Network, RAM, CPU, Battery]
+WidgetsRight: [Tray, Audio, Network, RAM, CPU, Battery]
 
 # The CPU sensor to use
 CPUThermalZone: /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon2/temp1_input
@@ -118,7 +118,7 @@ IconsAlwaysUp: false
 # Setting this to false will definitely fix this issue, but it won't look very good, since the widgets will be off-center.
 # So try to decrease "CenterSpace" first, before setting this configuration to false.
 # Legacy name: CenterTime
-CenterWidgets: true
+CenterWidgets: false
 
 # How much space should be reserved for the center widgets. Setting this too high can cause the right widgets to clip outside.
 # Therefore try to set it as low as possible if you experience clipping.
@@ -129,7 +129,7 @@ CenterWidgets: true
 CenterSpace: 300
 
 # Set datetime style
-DateTimeStyle: %a %D - %H:%M:%S %Z
+DateTimeStyle: %a %d %b %y - %H:%M:%S
 
 # Set datetime locale (defaults to system locale if not set or set to empty string)
 #DateTimeLocale: de_DE.utf8
@@ -142,7 +142,7 @@ MaxTitleLength: 30
 AudioInput: false
 
 # Sets the audio slider to be on reveal (Just like the sensors) when true. Only affects the bar.
-AudioRevealer: false
+AudioRevealer: true
 
 # Sets the rate of change of the slider on each scroll. In Percent
 AudioScrollSpeed: 5
@@ -171,7 +171,7 @@ NetworkAdapter: wlan0
 NetworkWidget: true
 
 # Use tooltips instead of sliders for the sensors
-SensorTooltips: true
+SensorTooltips: false
 
 # The size of the of the circular sensors
 SensorSize: 20
