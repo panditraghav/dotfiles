@@ -107,3 +107,14 @@ plasmanotifyrc
 .config/kdenlive-layoutsrc
 .config/kdenliverc
 .config/kio_fishrc
+.config/calcurse
+.config/kio_ftprc
+.config/klipperrc
+.config/krdpserverrc
+.config/krecentconnections
+.config/okularpartrc
+.config/plasmaparc
+.config/plasmarc
+.config/spectaclerc
+.config/xdg-desktop-portal-kderc
+.config/arkrc
