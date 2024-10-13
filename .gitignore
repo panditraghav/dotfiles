@@ -102,3 +102,8 @@ plasmanotifyrc
 .config/go/telemetry/local
 .config/google-chrome
 .config/nemo
+.config/audacity
+.config/simple-update-notifier
+.config/kdenlive-layoutsrc
+.config/kdenliverc
+.config/kio_fishrc
