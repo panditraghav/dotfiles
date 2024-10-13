@@ -14,11 +14,16 @@ abbr -a sn shutdown now
 abbr -a im img2sixel
 abbr -a gr grep
 abbr -a ka killall
+abbr -a e exit
+abbr -a ze zellij
+abbr -a zrf zellij run -f --
+
 # Git
 abbr -a gs git status
 abbr -a ga git add
 abbr -a gp git push origin main
 abbr -a gc git commit -m
+abbr -a sshc ssh -i ~/.ssh/computer raghav@192.168.91.29
 
 starship init fish | source
 set fish_greeting ""
@@ -53,3 +58,6 @@ set --export PATH $BUN_INSTALL/bin $PATH
 
 # go bin
 set --export PATH "$HOME/go/bin" $PATH
+
+# Editor
+set --export EDITOR nvim
