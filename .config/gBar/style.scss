@@ -1,7 +1,9 @@
 // colorscheme(dracula)
 // See https://github.com/dracula/dracula-theme/blob/master/LICENSE or dracula/LICENSE for the license
-$bg: #282a36;
-$fg: #f8f8f2;
+// $bg: #282a36;
+// $fg: #f8f8f2;
+$bg: #162938;
+$fg: #fcefc3;
 $inactive: #44475a;
 $darkblue: #6272a4;
 $cyan: #8be9fd;
@@ -39,6 +41,7 @@ menu {
 .bar,
 tooltip {
   background-color: $bg;
+  color: $fg;
   // border-radius: 16px;
 }
 
