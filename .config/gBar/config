@@ -52,7 +52,7 @@ ExitCommand: killall Hyprland
 BatteryFolder: /sys/class/power_supply/BAT0
 
 # Threshold, when the battery is considered low and a different color (as specified by the 'battery-warning' CSS property) is applied
-BatteryWarnThreshold: 20
+BatteryWarnThreshold: 30
 
 # The partition to monitor with disk sensor
 DiskPartition: /
