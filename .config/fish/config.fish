@@ -10,7 +10,7 @@ alias lta="exa --all --long --header --tree --level=2 --icons"
 alias lg="lazygit"
 
 abbr -a nm nmtui
-abbr -a bl bluetoothctl
+abbr -a bl bluetui
 abbr -a sn shutdown now
 abbr -a im img2sixel
 abbr -a gr grep
