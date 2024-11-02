@@ -1,0 +1,647 @@
+ls
+cd Code
+ls
+..
+ls
+clear
+ls
+echo "(echo hello)"
+echo "$(echo hello)"
+echo `echo hello`
+echo '$(echo hello)'
+echo $'(echo hello)'
+echo $'echo hello'
+chsh $'(which nu)'
+$nu.env-path
+nvim $nu.env-path
+cd .config/nushell/
+ls
+nvim config.nu
+clear
+exit
+z rust
+clear
+z dsa
+z rust
+clear
+z
+clear
+cd Downloads/
+ls
+ls | sort-by size
+ls | sort-by size | reverse
+ls | sort-by modified | reverse
+eza
+tldr eza
+eza --al
+eza --all
+eza --all --long
+clear
+ls
+ps
+ps | where cpu > 5
+help commands
+clear
+exit
+clear
+ls
+nmtui
+bluetui 
+clear
+cl
+clear
+ls
+la
+ls -la
+clear
+help ls
+ls --help
+clear
+help ls
+ls -du
+ls du
+ls -d
+ls -du .
+ls -d .
+clear
+ls
+ls -d Downloads/
+ls Downloads/
+ls -d Downloads/
+ls -d
+ls
+ls -d ~
+clear
+ls 
+ls --du
+clear
+ls
+la
+clear
+help ls
+ls -d ..
+ls -f ..
+ls ..
+ls
+ls -d .
+ls -d ..
+clear
+..
+ls -d
+ls
+ls -d raghav/
+z
+ls -d
+clear
+tldr ls
+clear
+exit
+https://nushell.sh
+http get https://nushell.sh
+clear
+ls
+clear
+ls
+ls 0
+ls | get 0
+ls | get 0 | get size
+clear
+help zu
+clear
+ls
+help nu
+exit
+nu
+clear
+nu --help
+help nu
+clear
+ls
+ls | get 1
+clear
+ls
+cd Code
+ls
+ls -d
+cd Onefinnet/
+ls
+rm -rf ./**/*/node_modules
+clear
+la
+clear
+ls
+clear
+help rm
+rm -prf **/node_modules
+rm -pf **/node_modules
+clear
+ls
+rm -prf **/node_modules
+clear
+tldr pnpm
+clear
+ls
+ls -d
+cd ecn-auth/
+ls -d
+ls -lad
+ls -d
+..
+clear
+ls -d
+rm -rf ecn-www-portal-vite/
+clear
+ls
+ls -d
+cd ecn-www-filter/
+ls
+ls -d
+rm -rf node_modules/
+ls -d | sort-by size
+..
+ls
+ls -d
+ls -d | sort-by size
+cd ecn-www-filter/
+ls
+clear
+ls -d | sort-by size
+ls | sort-by size
+clear
+..
+ls
+clear
+ls
+ls -d
+..
+ls
+ls -d
+cd OpenSource/
+ls
+ls -d
+clear
+**/node_modules
+ls **/
+clear
+ls **/*node_modules
+clear
+rm -rfp **/*node_modules
+clear
+ls
+ls -d
+..
+clear
+ls -d
+ls -d | sort-by size
+cd Projects/
+ls
+ls -d
+ls -d ruraltraveller/
+ls -d ruraltraveller/ | sort-by size
+rm -rfp **/*node_modules
+clear
+ls
+ls -d
+ls -d | sort-by size
+cd fast-downloader/
+ls
+ls -d | sort-by size
+ls -d src-tauri | sort-by size
+rm -rfp src-tauri/target
+ls -d
+ls -d | sort-by size
+..
+ls
+ls -d
+ls -d | sort-by size
+cd ruraltraveller/
+ls -d | sort-by size
+ls -ad | sort-by size
+..
+rm -rfp **/*.next
+ls -d | sort-by size
+cd Loan_Approval_Prediction/
+ls
+ls -d
+ls -d | sort-by size
+ls -ad | sort-by size
+rm -rf .env/
+..
+ls
+clear
+ls -ad | sort-by size
+cd fd
+ls
+ls -ad
+ls -lad
+clear
+ls -ad
+ls -lad
+cd ddas-backend/
+ls -ad | sort-by size
+cd datasets/
+ls -lad
+rm -rf alpine-standard-3.20.3-aarch64.iso
+..
+clear
+ls
+ls -ad | sort-by size
+..
+ls -ad | sort-by size
+cd fast-downloader/
+ls -ad
+ls -ad | sort-by size
+..
+ls
+..
+clear
+ls
+ls -ad | sort-by size
+cd OpenSource/
+ls
+ls -ad | sort-by size
+rm -rfp **/*.next
+ls -ad | sort-by size
+rm -rfp **/*node_modules
+ls -ad | sort-by size
+cd shape-o-holic/
+ls
+ls -ad | sort-by size
+..
+cclear
+clear
+ls
+ls -ad | sort-by size
+rm -rf shape-o-holic/
+cd space-tourism/
+ls -ad | sort-by size
+bat README.md
+..
+rm -rf space-tourism/
+ls
+ls -ad | sort-by size
+cd primitives/
+ls -ad | sort-by size
+cd .yarn
+ls -ad | sort-by size
+..
+cd primitives/
+rm -rfp .yarn
+..
+ls -ad | sort-by size
+cd nodejs.org/
+ls -ad | sort-by size
+..
+rm -rf nodejs.org/
+ls
+ls -ad | sort-by size
+cd rofi
+ls
+ls -lad
+ls -ad | sort-by size
+..
+rm -rfp rofi waydroid_script/
+rm -rfp rofi
+clear
+ls
+ls -ad | sort-by size
+..
+ls -ad
+ls -ad | sort-by size
+cd Learning/
+ls -ad | sort-by size
+cd tauri/
+ls
+cd tauri-learn/
+clear
+ls
+cd src-tauri/
+ls
+rm -rfp target
+..
+clear
+ls -ad | sort-by size
+rm -rfp **/*node_modules
+clear
+ls
+rm -rfp **/*node_modules
+ls -ad | sort-by size
+cd gtkrs/
+ls
+cd my-gtk-app/
+ls
+ls -ad | sort-by size
+rm -rf target
+..
+ls -ad | sort-by size
+..
+clear
+ls -ad | sort-by size
+cd Onefinnet/
+ls
+rm -rfp **/*.next
+ls -ad | sort-by size
+cd ecn-auth/
+ls -ad | sort-by size
+rm -rfp node_modules/
+..
+clear
+ls
+ls -ad | sort-by size
+cd ecn-www
+ls
+ls -ad | sort-by size
+rm -rfp node_modules/
+..
+ls -ad | sort-by size
+..
+ls
+clear
+ls -ad | sort-by size
+cd Learning
+ls
+ls -ad | sort-by size
+..
+ls -ad | sort-by size
+ls -ad .cache | sort-by size
+cd .cache/
+rm -rfp winetricks/ thorium/ yarn/ yay/ waydroid-script/
+rm -rfp hyde/
+syastemctl status waydroid
+systemctl status waydroif
+systemctl status waydroid
+clear
+..
+ls -ad | sort-by size
+cd .local/
+ls -ad | sort-by size
+cd share
+ls -ad | sort-by size
+cd Steam/
+ls
+ls -ad | sort-by size
+cd steamapps/
+ls
+ls -ad | sort-by size
+cd common/
+ls -ad | sort-by size
+..
+rm -rfp Steam/
+cd Trash/
+ls
+ls -ad
+cd files/
+ls
+ls -ad
+ls -ad | sort-by size
+rm -rfp Spider_Man_Across_The_Spider_Verse_2023_Hindi_1080p_HQ_S_Print_x264.mkv
+fd
+clear
+yazi
+ls -ad | sort-by size
+rm -rfp balenaEtcher-linux-x64
+ls -ad | sort-by size
+rm -rfp HyDE/ archive.zip.fdmdownload balenaEtcher-linux-x64-1.19.21.zip Rockstar-Games-Launcher.exe `Shrimad Valmiki Ramayana (Hindi Edition) - Valmiki.epub`
+clear
+ls -ad | sort-by size
+rm -rfp alpine-standard-3.20.3-aarch64.iso `alpine-standard-3.20.3-aarch64.iso (1)`
+clear
+ls -ad | sort-by size
+rm -rfp 'How to get hired as Frontend Developer in 2024 [_Y3XRruIVXA].webm' font/ pipewire
+ls -ad | sort-by size
+rm -rf slider-video.mp4 slider-video-nosound.mp4 small-slider-2.mp4 small-slider-3.mp4 small-slider.mp4
+rm -rpf slider-video.mp4 slider-video-nosound.mp4 small-slider-2.mp4 small-slider-3.mp4 small-slider.mp4
+ls -ad | sort-by size
+..
+ls -ad | sort-by size
+cd share
+ls -ad | sort-by size
+..
+ls
+..
+clear
+ls -ad | sort-by size
+rm -rfp .wine/
+cd dotfiles/
+ls -ad | sort-by size
+cd .config/
+ls -ad | sort-by size
+git status
+rm -rfp thorium/
+..
+ls
+ls -ad | sort-by size
+..
+ls -ad | sort-by size
+cd Downloads
+ls -ad | sort-by size
+cd Games
+ls -ad | sort-by size
+..
+rm -rfp Games/
+ls -ad | sort-by size
+rm -rfp AndroidApps/
+cd OS/
+ls -ad | sort-by size
+..
+rm -rfp OS/
+ls
+ls -ad | sort-by size
+cd Youtube/
+ls -ad | sort-by size
+cd College/
+ls -ad | sort-by size
+..
+rm -rf College/
+z Trash
+ls
+cd files
+ls
+ls -ad | sort-by size
+z Downloads
+ls
+ls -ad | sort-by size
+cd Shows/
+ls
+ls -ad | sort-by size
+..
+ls -ad | sort-by size
+cd Youtube/
+ls
+ls -ad | sort-by size
+cd Learning/
+ls -ad | sort-by size
+cd .Spiritual/
+ls
+..
+cd Go/
+ls
+..
+ls
+rm -rfp Learning/
+cd Entertainment/
+ls -ad | sort-by size
+..
+rm -rfp Youtube/
+ls -ad | sort-by size
+clear
+..
+ls -ad | sort-by size
+cd Videos/
+ls
+ls -ad | sort-by size
+cd DSA
+ls -ad | sort-by size
+..
+rm -rfp DSA/
+cd Rust/
+ls
+..
+rm -rfp Rust/
+cd Youtube/
+ls -ad | sort-by size
+mpv ShivTandavStotra/
+..
+rm -rfp Youtube/
+clear
+ls -ad | sort-by size
+..
+clear
+ls -ad | sort-by size
+cd Music/
+ls -ad | sort-by size
+cd Bhajan/
+ls -ad | sort-by size
+...
+clear
+~
+ls
+help find
+clear
+ls
+la
+clear
+last
+help last
+1..100 | last
+help first
+clear
+strt
+clear
+exit
+[[framework, language]; [Django, Python] [Laravel, PHP]]
+[{name: 'Robert' age: 34 position: 'Designer'}<\n> {name: 'Margaret' age: 30 position: 'Software Developer'}<\n> {name: 'Natalie' age: 50 position: 'Accountant'}<\n>] | select name position
+cd .config/nushell/
+ls
+vi config.nu
+nvim config.nu
+ls
+clear
+ls
+$env.EDITOR
+$env
+$env | find Editor
+$env | find EDITOR
+clear
+z nutshell
+z nushell
+ls
+vi env.nu
+nvim env.nu
+z nushell
+ls
+nvim env.nu
+config nu 
+clear
+curl -sS https://starship.rs/install.sh | sh
+z nushell
+config env
+config nu
+ls
+clear
+ls
+la
+ls
+clear
+z
+ls
+clear
+z nushell
+vi env.nu
+nvim env.nu
+nvim config.nu
+clear
+ls
+clear
+bat config.nu
+clear
+ls -la
+nvim config.nu
+z nutshell
+z nushell
+cd .config/nushell/
+nvim config.nu
+y
+vi
+clear
+^sort 
+clear
+ls
+ls | sort-by size
+ls -da | sort-by size
+scope aliases
+ls
+cd Videos/
+..
+Videos/
+ls
+join
+clear
+ls -da | sort-by size
+ls Desktop/
+clear
+ls -da | sort-by size
+..
+cd /home/
+ls -da | sort-by size
+..
+ls -da | sort-by size
+cd proc
+ls
+..
+ls
+cd home/raghav/
+ls
+config nu
+config env 
+config env
+ls
+config env
+cd .config/
+ls
+ls | where name = starship
+ls | where name = "starship"
+1..10 | each {$in * 2}
+0..10 | each {$in * 2}
+ls
+ls | get name | to text
+ls | get name | to text | ^grep starship
+ls | get name | find starship
+ls | find starship
+nvim starship.toml
+ls
+la
+ls
+lazygit
+..
+clear
+ls
+git push origin main
+git status
+git remote 
+git remote -v
+nm 
+nm
+nmtui
+clear
+vi .
