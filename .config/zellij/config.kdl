@@ -3,6 +3,7 @@ keybinds clear-defaults=true {
     normal {
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
+        bind "Alt f" { ToggleFocusFullscreen; }
     }
     locked {
         bind "Alt g" { SwitchToMode "Normal"; }
@@ -217,7 +218,7 @@ simplified_ui true
 // Choose the path to the default shell that zellij will use for opening new panes
 // Default: $SHELL
 //
-default_shell "fish"
+default_shell "nu"
 
 // Choose the path to override cwd that zellij will use for opening new panes
 //
@@ -271,7 +272,7 @@ themes {
     magenta "#f5c2e7" // Pink
     orange "#fab387" // Peach
     cyan "#89dceb" // Sky
-    black "#181825" // Mantle
+    black "#181818" // Mantle
     white "#cdd6f4"
   }
 }
