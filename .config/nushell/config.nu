@@ -903,6 +903,8 @@ alias vi = nvim
 alias bl = bluetui
 alias sn = shutdown now
 alias y = yazi
+alias nm = nmtui
+alias zrf = zellij run -f --
 
 source ~/.zoxide.nu
 use ~/.cache/starship/init.nu

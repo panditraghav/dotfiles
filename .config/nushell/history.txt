@@ -645,3 +645,851 @@ nm
 nmtui
 clear
 vi .
+lazygit
+z
+clear
+ls -da | sort-by size
+clear
+nm
+config nu
+config env
+config nu
+nm
+clear
+ls
+clear
+ls
+ls -da | sort-by size
+clear
+exit
+cd Pictures/
+ls
+cd Mobile/
+ls
+clear
+ls -da | sort-by size
+rm -rfp test
+ls -da | sort-by size
+cd Videos/
+ls
+..
+clear
+exit
+bl
+sn
+bl
+sn
+ls
+ls | get 0
+ls.1
+ls | get 1
+clear
+ls
+ls | cd 0
+ls | cd $in
+ls | get 0 | cd $in.name
+..
+clear
+ls
+mut x = 0;
+x
+$x
+$x + 1
+$x
+$x = $x + 1
+$x
+loop { if $x > 10 { break }; print $x; $x = $x + 1; }
+nm
+n
+clear
+sn
+nm
+sn
+sys
+sys cpu
+sys mem
+sys disk
+sys disks 
+sys temp
+sys users
+sys host
+sys host | get uptime
+sys net
+sys net | get 0
+ls | table
+ls | json
+ls | to json
+sn
+n,
+n
+nm
+clear
+cd dotfiles
+ls
+la
+clear
+cd .config
+ls
+gs
+clear
+git status
+kanata 
+clear
+kanata/
+ls
+systemctl status katana.service
+systemctl status kanata.service
+cd ~/.config/systemd/
+ls
+cd user
+ls
+which kanata
+which kanata | to text
+which kanata | get path |  to text
+which kanata | get path |  to text | ^wl-copy
+kanata --help
+vi kanata.service
+clear
+systemctl --user start kanata.service
+systemctl --user status kanata.service
+kanata -c /home/raghav/.config/kanata/config.kbd
+groups raghav
+sys users
+clear
+ls
+systemctl --user start kanata.service
+systemctl --user status kanata.service
+kanata -c /home/raghav/.config/kanata/config.kbd
+usermod -aG raghav uinput
+usermod -aG uinput raghav
+sudo usermod -aG uinput raghav
+kanata -c /home/raghav/.config/kanata/config.kbd
+systemctl daemon reload
+systemctl daemon-reload
+clear
+systemctl --user start kanata.service
+systemctl --user status kanata.service
+clear
+/etc/udev/rules.d/99-input.rules
+/etc/udev/rules.d/
+ls
+touch 99-input.rules
+sudo touch 99-input.rules
+'KERNEL=="uinput", MODE="0660", GROUP="uinput", OPTIONS+="static_node=uinput"'
+'KERNEL=="uinput", MODE="0660", GROUP="uinput", OPTIONS+="static_node=uinput"' | save 99-input.rules
+help save
+'KERNEL=="uinput", MODE="0660", GROUP="uinput", OPTIONS+="static_node=uinput"' | save --append 99-input.rules
+sudo 'KERNEL=="uinput", MODE="0660", GROUP="uinput", OPTIONS+="static_node=uinput"' | save --append 99-input.rules
+'KERNEL=="uinput", MODE="0660", GROUP="uinput", OPTIONS+="static_node=uinput"' |sudo save --append 99-input.rules
+vi 99-input.rules
+sudo nvim 99-input.rules
+sudo udevadm control --reload-rules && sudo udevadm trigger
+sudo udevadm control --reload-rules and sudo udevadm trigger
+sudo udevadm control --reload-rules | and |  sudo udevadm trigger
+sudo udevadm control --reload-rules 
+sudo udevadm trigger
+clear
+kanata -c /home/raghav/.config/kanata/config.kbd
+clear
+kanata -c /home/raghav/.config/kanata/config.kbd
+kanata --help
+clear
+kanata -c /home/raghav/.config/kanata/config.kbd -d
+clear
+systemctl --user status kanata.service
+systemctl --user start kanata.service
+systemctl --user status kanata.service
+systemctl --user end kanata.service
+systemctl --user stop kanata.service
+clear
+ls
+vi kanata.service
+clear
+..
+clear
+cd kanata/
+kanata -c /home/raghav/.config/kanata/config.kbd -d
+clear
+help http
+http get https://something.com
+help http get
+http get cheat.sh
+http get https://cheat.sh
+clear
+curl cheat.sh
+http get cheat.sh | ^nvim
+http get https://cheat.sh | ^nvim
+curl https://cheat.sh
+clear
+tldr nushell
+tldr nu
+cd .config
+ls
+ls | where type = file
+ls | where type = "file"
+ls | get where type = file
+ls | get | where type = file
+clear
+help where
+ls | where type == file
+open starship.toml
+open starship.toml | get cmd_duration
+open starship.toml | get cmd_duration | to text
+open starship.toml | get cmd_duration.format | to text
+z rust
+ls
+open Cargo.toml
+open Cargo.toml | get dependencies
+open Cargo.toml | get package.name
+open Cargo.toml | get package.edition
+z dsa-rust
+z nushell
+ls
+vi config.nu
+source ~/.config/nushell/config.nu
+zrf cargo run
+cargo build
+./target/debug/dsa-rust
+time ./target/debug/dsa-rust
+time
+which time
+sudo pacman -S time
+time
+time ./target/debug/dsa-rust
+clear
+exit
+zrf cargo run
+z dsa-rust
+zrf cargo run
+sn
+z dsa-rust
+zrf cargo run
+tldr nu
+nm
+bl
+bits and
+"Hello" | ansi gradient 
+help ansi gradient 
+'Hello, Nushell! This is a gradient.' | ansi gradient --fgstart '0x40c9ff' --fgend '0xe81cff'
+'Hello, Nushell! This is a gradient.' | ansi gradient --fgstart '0x40c9ff' --fgend '0xe81cff' --bgstart '0xe81cff' --bgend '0x40c9ff'
+'Hello, Nushell! This is a gradient.' | ansi gradient --fgend '0xe81cff'
+clear
+bl
+n
+nm
+clear
+vi .
+sn
+bl
+nm
+clear
+ls
+ls -da | sort-by size
+cd Pictures
+ls
+clear
+..
+clear
+ls
+cd Code
+ls
+cd Projects
+ls
+mkdir genetic_programming
+cd genetic_programming/
+ls
+gcc -o main main.c
+./main
+clear
+rm -rfp main
+clear
+make
+./gp
+clear
+./gp
+clear
+./gp
+make
+clear
+rm -p gp
+make
+cc
+cc --help
+tldr cc
+clear
+rm -p gp
+make
+make clean
+pkg-config --list-all | grep sdl
+pkg-config --cflags sdl2
+tldr pkg-config
+pkg-config --libs sdl2
+make
+make clean
+make
+clear
+z
+ls
+cd Videos
+ls
+..
+ls
+cd Videos
+mkdir Youtube
+cd Youtube/
+ls
+mkdir .Spiritual
+cd .Spiritual/
+ls
+mkdir Bhagvat
+cd Bhagvat/
+ls
+yt-dlp -F "https://youtube.com/playlist?list=PLGNp7KSt41A5zkkEDf0QfE-B43aEBYXsW&si=3oGRDhlFz5WZtMdP"
+yt-dlp -f 251 "https://youtube.com/playlist?list=PLGNp7KSt41A5zkkEDf0QfE-B43aEBYXsW&si=3oGRDhlFz5WZtMdP"
+ls
+tldr yt-dlp
+pkg-config --libs sdl2
+pkg-config --cflags sdl2
+/usr/include/SDL2
+ls
+clear
+ls
+z SDL2
+l
+ls
+clear
+ls
+tldr grep
+grep -rn 'SDL_CreateWindow'
+clear
+make
+..
+du
+yt-dlp -f 251 -o "%(playlist_index)s.%(ext)s" "https://youtube.com/playlist?list=PLGNp7KSt41A5zkkEDf0QfE-B43aEBYXsW&si=3oGRDhlFz5WZtMdP"
+ls
+zellij run --help
+zellij run -i mpv 04.webm
+zellij run -i -- mpv 04.webm
+z Spiritual
+ls
+cd Bhagvat/
+ls
+zellij run --help
+zellij run -- mpv 04.webm
+z
+clear
+z
+zellij --list
+zellij --list-all
+zellij -ls
+zellij -l
+zellij --help
+zellij list-sessions
+zellij da
+zellij ls
+help cp
+aft-mpt-mount
+aft-mtp-mount 
+ls
+cd samsung-SM-E236B-C187B7371EB0218F60E1A4CD459F9122/
+ls
+la
+cd `Internal storage/`
+ls
+cd YouTube/
+ls
+z Spiritual
+pwd
+cp -p ~/Videos/Youtube/.Spiritual/Bhagvat/ .
+help cp
+cp -rp ~/Videos/Youtube/.Spiritual/Bhagvat/ .
+..
+unmount samsung-SM-E236B-C187B7371EB0218F60E1A4CD459F9122/
+umount samsung-SM-E236B-C187B7371EB0218F60E1A4CD459F9122/
+rm -rfp samsung-SM-E236B-C187B7371EB0218F60E1A4CD459F9122/
+ls
+clear
+nm
+bl
+cd Code
+ls
+cd Projects/
+ls
+cd genetic_programming/
+s
+ls
+make
+./gp
+make
+./gp
+clear
+make run
+clear
+zrf make run
+mpv Videos/Youtube/.Spiritual/Bhagvat/04.webm
+clear
+ls
+cd Videos/Youtube/
+ls
+la
+mv .Spiritual/ .Sp
+ls
+cd .Sp/
+ls
+mv Bhagvat/ Bh
+ls
+du
+clear
+cd Bh/
+ls
+mpv 04
+mpv 04.webm
+z mpv
+ls
+vi mpv.conf
+z Bh
+ls
+z
+..
+cd raghav/
+ls
+cd Videos/Youtube/.Sp/Bh/
+ls
+tldr mpv
+clear
+man mpv
+ls
+mpv 04.webm
+clear
+pavucontrol
+bl
+z nvim
+vi .
+nvim
+ls
+vi .
+z
+ls
+nvim
+nm
+z nvim
+nvim .
+vi .
+clear
+z Notes
+z nvim
+vi .
+vi .
+exit
+date now
+date now | git commit -m $in
+git push origin main
+clear
+sn
+sudo pacman -S emacs
+clear
+sudo pacman -S emacs-wayland
+emacs
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs<\n>~/.config/emacs/bin/doom install
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs<\n>; ~/.config/emacs/bin/doom install
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+nm
+~/.config/emacs/bin/doom install
+sudo pacman -Syu
+~/.config/emacs/bin/doom install
+~/.config/emacs/bin/doom --help
+clear
+~/.config/emacs/bin/doom --help
+~/.config/emacs/bin/doom install
+rm -rfp .config/emacs/
+.config
+ls
+..
+~/.config/emacs/bin/doom install
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs<\n>; ~/.config/emacs/bin/doom install
+~/.config/emacs/bin/doom install
+doom
+emacs-29.4 
+clear
+cd .config
+ls
+cd doom/
+ls
+..
+emacs 
+emacs
+cd emacs/
+ls
+bin/
+ls
+doom
+./doom
+./doom sync
+kill-all emacs
+killall emacs
+clear
+btop
+doom doctor
+./doom doctor
+clear
+doom.sh
+./doom
+./doom run
+clear
+z
+clear
+z nvim
+vi .
+nvim .
+z
+ls
+mkdir notes
+cd notes
+touch test.norg
+z nvim
+nvim test.norg
+nvim
+nvim .
+vi .
+clear
+exit
+vi .
+sn
+bl
+zbh
+z bh
+ls
+z
+ls
+z sp
+ls
+cd Bh/
+ls
+mpv 04.webm
+mpv 05.webm
+tldr mpv
+man mpv
+mpv 05 --start=00:58:00
+sudo pacman -Syu
+tldr pacman
+sudo pacman -Rs plasma
+sudo pacman -R plasma
+sudo pacman -R gwenview okular spectacle xwaylandvideobridge 
+sudo pacman -Rs plasma
+sudo pacman -R kioclient kioclient5 
+sudo pacman -R kioclient 
+sudo pacman -Rs plasma-activities-cli6 
+sudo pacman -Rs plasma-activities
+sudo pacman -Rs kwin
+sudo pacman -Rs plasma
+sudo pacman -Rns plasma
+pacman --help
+pacman -R --help
+sudo pacman -Rss plasma
+pacman -Qs kio
+sudo pacman -R kio
+sudo pacman -Rs kio
+clear
+sudo pacman -Rns plasma kde-applications
+nm
+sudo pacman -S evince gnome-calculator loupe
+sudo pacman -S nb
+z Opensource
+git clone https://github.com/xwmx/nb.git
+nm
+https://github.com/xwmx/nb.git
+git clone https://github.com/xwmx/nb.git
+cd nb
+ls
+sudo make install
+/usr/local/bin
+ls
+nb
+vi .
+clear
+nb
+z
+nb
+nb hellp
+nb help
+ls
+rm -rfp notes
+ls
+nb add
+ls
+cd notes
+ls
+la
+..
+z nv
+z nb
+sudo make uninstall
+clear
+z
+z
+clear
+ls
+z rt
+ls
+..
+ls
+clear
+nb
+z
+mpv 05.webm --start=00:58:00
+nvim
+nm
+bl
+nm
+bl
+clear
+z Bh
+z Sp
+ls
+cd Bh/
+ls
+mpv 05.webm --start=00:60:00
+mpv 05.webm --start=01:00:00
+z
+z something
+clear
+nvim
+clear
+nm
+z OpenSource
+ls
+git clone https://github.com/nvim-telescope/telescope.nvim.git
+cd telescope.nvim/
+ls
+mpv 05.webm --start=01:20:00
+doom
+ls
+cd .config/doom
+ls
+..
+ls
+emacs
+./emacs/
+ls
+bin/
+ls
+doom
+./doom run
+clear
+doom
+emacs
+clear
+z doom
+z emacs
+ls
+cd bin
+ls
+doom --help
+./doom --help
+clear
+z
+mpv 06.webm
+clear
+mpv 07.webm
+bl
+nm
+z nvim
+vi .
+nvim .
+clear
+z rust
+vi .
+z nvim
+z rust
+vi .
+vi .
+nvim .
+vi .
+vi .
+clear
+sn
+nm
+bl
+cd Videos/Youtube/.Sp/Bh/
+ls
+bl
+nm
+z gBar
+ls
+vi config
+nm
+bl
+hyprctl display
+hyprctl monitors
+mpv 07.webm
+clear
+bl
+nvim
+nm
+z Bh
+mpv 07.webm
+bl
+z Bh
+ls
+nvim --help
+bl
+nm
+bl
+nm
+bl
+mpv 08.webm
+mpv 08.webm --start 00:50:00
+nm
+bl
+z
+mpv 08.webm --start=00:50:00
+mpv 09.webm
+nm
+z
+killall waydroid
+btop
+clear
+sudo pacman -R waydroid
+cmatrix
+cmatrix --help
+cmatrix -b
+cmatrix -bca
+cmatrix -c
+cmatrix -ba
+cmatrix -br
+bl
+nm
+systemctl status waydroid
+nm
+mpv 10.webm
+z Test
+ls
+z
+wl-paste | save feedback.js
+bat feedback.js
+ls
+rm feedback.js
+ls
+nm
+nvim
+clear
+z nvim
+vi .
+nvim
+nvim
+nm
+bl
+z Bh
+ls
+mpv 09.webm
+mpv 08.webm
+mpv 09.webm
+mpv 10.webm
+mpv 11.webm
+nm
+"last=11" | save last.txt
+open last
+open last.txt
+sn
+z Bh
+open last.txt
+mpv 12.webm
+clear
+nm
+bl
+nm
+bl
+nm
+mpv 12.webm
+open last.txt
+mv last.txt last
+open last
+"last=12" | save --force last
+open last
+bl
+nm
+find celeste
+help find
+^find
+^find --help
+tldr find
+find -name "celeste"
+*find -name "celeste"
+^find -name "celeste"
+cd .local/share/
+rm -rfp waydroid
+ls -la waydroid
+tldr chmod
+chmod a+rw waydroid/
+rm -rfp waydroid
+cd waydroid/
+ls
+rm -rfp data
+cd data
+ls
+..
+trldr chmod
+tldr chmod
+..
+chmod -R a+rw waydroid
+sudo chmod -R a+rw waydroid
+rm -rf waydroid
+ls
+clear
+ls
+cd Celeste/
+ls
+..
+rm -rfp Celeste/
+ls
+..
+find -name "celeste" /
+^find -name "celeste" /
+^find / -name "celeste"
+ls
+tldr find
+^find -name "celeste" -iname | nvim
+^find -name "celeste" -iname | save find.txt
+^find -iname "celeste" | save find.txt
+open find.txt
+rm -rfp find.txt
+^find -iname "celeste" | save find.txt
+ls
+open find.txt
+rm -rfp find.txt
+ls
+foot --help
+fuzzel --help
+XDG_CACHE_HOME
+"$(XDG_CACHE_HOME)"
+"(XDG_CACHE_HOME)"
+"($XDG_CACHE_HOME)"
+$"($XDG_CACHE_HOME)"
+$"(XDG_CACHE_HOME)"
+$"($XDG_CACHE_HOME)"
+.cache/
+ls
+clear
+ls
+cat fuzzel
+vi fuzzel
+fuzzel
+fuzzel --log-level=info
+z fuzzel
+ls
+vi fuzzel.ini
+vi .
+./fuzzel
+vi .
+z
+ls
+tldr find
+find -type d -iname steam
+find -type d -iname "steam"
+^find -type d -iname "steam"
+clear
+z Bh
+ls
+open last
+z hypr
+ls
