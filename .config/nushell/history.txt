@@ -1493,3 +1493,93 @@ ls
 open last
 z hypr
 ls
+vi hyprland.conf
+z
+bl
+nvim
+nvim
+sn
+nm
+tldr yt-dlp
+man yt-dlp
+z Bh
+ls
+z
+yt-dlp -f 251 -o "%(playlist_index)s.%(ext)s" "https://youtube.com/playlist?list=PLGNp7KSt41A5zkkEDf0QfE-B43aEBYXsW&si=3oGRDhlFz5WZtMdP" -I 21:40
+yt-dlp -f 251 -o "%(playlist_index)s.%(ext)s" "https://youtube.com/playlist?list=PLGNp7KSt41A5zkkEDf0QfE-B43aEBYXsW&si=3oGRDhlFz5WZtMdP" -I 41:60
+..
+ls
+du
+cd 
+ls
+z Bh
+ls | last
+ls
+yt-dlp -f 251 -o "%(playlist_index)s.%(ext)s" "https://youtube.com/playlist?list=PLGNp7KSt41A5zkkEDf0QfE-B43aEBYXsW&si=3oGRDhlFz5WZtMdP" -I 61:-1
+ls
+z
+aft-mtp-mount 
+z Bh
+pwd
+pwd | wl-copy
+z
+umount samsung-SM-E236B-C187B7371EB0218F60E1A4CD459F9122/
+ls
+rm -rfp samsung-SM-E236B-C187B7371EB0218F60E1A4CD459F9122/
+ls
+sn
+nm
+hyprctl exit
+hyprctl dispatch exit
+z sway
+ls
+z
+y
+gwenview
+genview
+sudo pacman -S eog
+y
+ls
+which shell
+cd Pictures/Wall
+cd Pictures/Wallpapers/
+ls
+man 5 sway-bar
+ls
+eog abstract_art_colors.png
+pactl
+pactl --help
+pactl get-source-volume
+pactl info
+pactl info | to json
+pactl --help
+tldr pactl
+pactl list sinks
+pactl get-sink-volume 55
+vi config
+wpctl
+clear
+man 5 sway-bar
+clear
+wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+; pkill -RTMIN+8 waybar
+wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+
+pactl get-sink-volume 55
+pactl get-sink-volume @DEFAULT_AUDIO_SINK@
+tldr pactl
+pactl get-sink-volume @DEFAULT_SINK@
+man pactl
+ls
+pactl get-sink-volume @DEFAULT_SINK@
+ls
+man 5 sway-bar
+man sway
+man 5 sway
+z gBar
+ls
+nm
+vi style.scss
+waybar
+notify-send "Hello"
+clear
+dunstctl --help
+dunstctl close-all
