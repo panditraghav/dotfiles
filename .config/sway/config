@@ -48,7 +48,7 @@ exec dunst &
 
 ### Output configuration
 #
-output * bg ~/Pictures/Wallpapers/winter-forest-scenery.jpg fill
+output * bg ~/Pictures/Wallpapers/mountain_river.jpg fill
 #
 # Example configur+ation:
 #
@@ -102,7 +102,7 @@ input type:keyboard {
     bindsym $mod+t exec $term
 
     # Start a browser
-    bindsym $mod+b exec thorium-browser
+    bindsym $mod+b exec zen-browser
 
     # Start file manager
     bindsym $mod+e exec thunar
@@ -111,7 +111,7 @@ input type:keyboard {
     bindsym $mod+q kill
 
     # Start your launcher
-    bindsym $mod+p exec $menu
+    bindsym $mod+space exec $menu
     # Emoji picker
    bindsym $mod+o exec ~/.config/fuzzel/fuzzel-emoji.sh
 
@@ -129,7 +129,7 @@ input type:keyboard {
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 
 # Brightness and volume
-# Audio
+# Audio Waybar
 bindsym XF86AudioRaiseVolume exec "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+; pkill -RTMIN+8 waybar"
 bindsym XF86AudioLowerVolume exec "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-; pkill -RTMIN+8 waybar"
 bindsym XF86AudioMute exec "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle; pkill -RTMIN+8 waybar"
@@ -217,7 +217,7 @@ bindgesture swipe:left workspace next
     bindsym $mod+Shift+space floating toggle
 
     # Swap focus between the tiling area and the floating area
-    bindsym $mod+space focus mode_toggle
+    bindsym $mod+Tab focus mode_toggle
 
     # Move focus to the parent container
     bindsym $mod+a focus parent
@@ -273,4 +273,25 @@ bar {
   swaybar_command waybar
 }
 
+# set $wifi $(nmcli radio wifi | sed -e "s/enabled/on/" -e "s/disabled/off/")
+# set $volu $(amixer get Master | grep "Right:" | grep -E -o "[[0-9%]+]\s[[A-Za-z]+]")
+# set $micr $(amixer get Capture | grep "Right:" | grep -E -o "[[A-Za-z]+]")
+# set $batt $(cat /sys/class/power_supply/BAT0/capacity)
+# set $date $(date +"%a %F %H:%M")
+# set $status /// wifi: [$wifi] /// vol: [$volu] /// mic: $micr /// bat: [$batt%] /// $date
+#
+# bar {
+#     position bottom
+#
+#     # When the status_command prints a new line to stdout, swaybar updates.
+#     # The default just shows the current date and time.
+#     # status_command while date +'%Y-%m-%d %X'; do sleep 1; done
+#     status_command while echo $status; do sleep 1; done
+#
+#     colors {
+#         statusline #ffffff
+#         background #323232
+#         inactive_workspace #32323200 #32323200 #5c5c5c
+#     }
+# }
 include /etc/sway/config.d/*
