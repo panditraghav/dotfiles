@@ -6,9 +6,9 @@ return {
       layout_config = {
         horizontal = {
           width = 0.98,
-          height = 0.85,
+          height = 0.95,
           preview_cutoff = 120,
-          preview_width = 0.5,
+          preview_width = 0.6,
         },
       },
     },
