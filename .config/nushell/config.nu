@@ -904,6 +904,7 @@ alias bl = bluetui
 alias sn = shutdown now
 alias y = yazi
 alias nm = nmtui
+alias ka = killall
 alias zrf = zellij run -f --
 
 source ~/.zoxide.nu
