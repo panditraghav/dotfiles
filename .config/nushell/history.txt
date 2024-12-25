@@ -1583,3 +1583,1392 @@ notify-send "Hello"
 clear
 dunstctl --help
 dunstctl close-all
+vi .
+vi config
+la
+clear
+vi config
+bl
+clear
+vi config
+ls
+clear
+sn
+bl
+ls
+z cpp
+cd Code
+ls
+cd Learning
+ls
+cd dsa
+ls
+nm
+bl
+meson compile -C builddir
+./run.sh -c
+./run
+./run.sh
+meson compile -C builddir
+clear
+meson builddir
+rm -rfp builddir/
+meson builddir
+meson compile -C builddir
+./run.sh
+nm
+bl
+clear
+./run.sh -c
+zrf ./run.sh -c
+man istream
+man ifstream
+nm
+vi .
+ls
+meson builddir
+rm -rfp builddir/
+meson compile -C builddir
+meson builddir
+meson compile -C builddir
+./run.sh
+ls
+./run.sh -c
+vi .
+z dsa-rust
+z
+ls
+z dsa-rustg
+z dsa-rust
+ls
+vi .
+zrf cargo run
+nm
+bl
+ls -la
+ls -lah
+ls -da | sort-by size
+z
+ls -da | sort-by size
+sn
+z dsa-rust
+clear
+zrf cargo run
+bl
+nm
+z waybar
+vi .
+z
+nm
+bl
+nm
+z dotfiles
+lazygit
+z nushell
+ls
+vi history.txt
+z
+z nu
+ls
+nm
+z
+bl
+neofetch
+nm
+bl
+tldr gnuplot
+tldr --update
+gnuplot
+sudo pacman -S gnuplot
+vi .
+z
+sn 
+killall Hyprland
+nm
+z
+z Learning
+ls
+mkdir tsoding
+cd tsoding/
+ls
+cmatrix
+nm
+la
+la ~
+cd nn.h/
+..
+mv nn.h/ nn
+cd nn/
+ls
+chmod +x build.sh
+./build.sh
+./nn
+zrf ./build.sh && ./nn
+zrf "./build.sh && ./nn"
+zrf ./build.sh ; ./nn
+zrf ./build.sh
+nm
+zrf ./build.sh
+bl
+nm
+bl
+clear
+bl
+nm
+bl
+vi .
+z
+z dsa-rust
+z nvim
+ls
+vi .
+vi .
+nvim .
+bl
+zrf cargo run
+nm
+sudo pacman -Syu
+bl
+nm
+bl
+ls
+z
+cd Downloads/
+ls
+mkdir Notebooks.zip
+mkdir Notebooks
+ls
+mv Notebooks.zip Notebooks/
+ls
+cd Notebooks/
+ls
+unzip Notebooks.zip
+ls
+cd Notebooks/
+ls
+code .
+nm
+ls
+..
+ls
+git clone https://github.com/ananmaysuri/Skin-Disease-Detection-App.git
+ls
+cd Skin-Disease-Detection-App/
+ls
+vi .
+ls
+code .
+vi .
+cd Downloads
+ls
+cd Notebooks/
+ls
+cd Skin-Disease-Detection-App/
+ls
+cd Models/
+ls
+cd allergy-model/
+python3 -m venv env
+ls
+rm -rfp env
+ls
+la
+ls
+la
+../
+..
+ls
+la
+.venv/bin/pip3 install tqdm urllib bs4
+.venv/bin/pip3 install tqdm bs4
+cd Downloads
+open kaggle.json
+tldr unzip
+clear
+sn
+tldr wget
+tldr curl
+wget
+wget --help
+clear
+wget --help
+tldr wget
+tldr unzip
+clear
+nm
+z dsa-rust
+zrf cargo run
+python3
+nm
+z nvim
+ls
+vi .
+nvim .
+vi .
+clear
+vi .
+nm
+clear
+z
+nvim .
+cd Code
+ls
+cd Projects/
+ls
+..
+ls
+cd Learning/
+ls
+..
+ls
+sn
+cd Code
+lt
+eza
+ls
+tree
+clear
+ls
+cd Projects/
+ls
+..
+ls
+cd Learning/
+ls
+..
+ls
+cd Projects/
+ls
+..
+ls
+ls TempProjects/
+ls OpenSource/
+z
+ls
+cd Documents/
+ls
+z
+y
+z Code
+ls
+cd Projects/
+ls
+..
+ls
+ls Learning/
+cd Projects/
+ls
+git clone git@github.com:panditraghav/sih-project.git
+cd sih-project/
+cd client/
+ls
+pnpm i
+clear
+pnpm
+clear
+sudo pacman -S pnpm
+clear
+pnpm i
+pnpm build
+clear
+pnpm de
+z sway
+vi config
+pnpm dev
+vi .
+sn
+z dsa-rust
+zrf cargo run
+vi .
+sn
+bl
+z dsa
+bl
+nm
+zrf cargo run
+vi .
+sn
+bl
+clear
+btop
+bl
+nm
+vi
+vi 
+z nvim
+ls
+vi .
+nvim .
+vi .
+nm
+clear
+z 
+cd Downloads/
+ls
+cd Notebooks/Skin-Disease-Detection-App/
+ls
+cd Models/cancer-model/
+ls
+code Cancer-model.ipynb
+nm
+ls
+sudo pacman -S evince
+gcc
+man gcc
+ls
+cd Code
+ls
+cd Learning
+ls
+mkdir dsa-cpp
+cd dsa-cpp/
+ls
+man gcc
+tldr gcc
+make
+clear
+make
+clear
+make
+clear
+zrf make
+exit
+clear
+ls
+gcc main.cpp
+g++ main.cpp
+clear
+clear
+zrf make
+zrf make run
+make
+clear
+make
+clear
+make
+clear
+zrf make
+./main
+clear
+make run
+./main
+make run
+tldr g++
+clear
+zrf make run
+clear
+..
+ls
+cd meson/
+ls
+cd sdl/
+ls
+../gtk/
+l
+ls
+bat compile_commands.json
+clear
+meson setup builddir
+meson -C builddir
+meson -c builddir
+meson compile -C builddir
+./builddir/dsa
+clear
+cd builddir/
+ls
+meson compile
+./dsa
+meson compile
+./dsa
+clear
+meson compile
+./dsa
+meson compile
+./dsa
+meson compile
+./dsa
+meson compile
+./dsa
+meson compile
+./dsa
+meson compile
+./dsa
+meson compile
+./dsa
+meson compile && ./dsa
+meson compile ; ./dsa
+meson compile and ./dsa
+meson compile ; ./dsa
+./dsa
+clear
+meson compile ; ./dsa
+clear
+tldr ln
+..
+ls
+ln -s builddir/compile_commands.json .
+ls
+clea
+clear
+git init
+gti branch -m main
+git branch -m main
+clear
+git add .
+git commit -m "First commit"
+z dsa-cpp
+ls
+man fstream
+meson compile -C builddir/ ; ./builddir/dsa
+zrf meson compile -C builddir/ ; ./builddir/dsa
+zrf meson compile -C builddir/ \; ./builddir/dsa
+exit
+zrf meson compile -C builddir/ && ./builddir/dsa
+meson compile -C builddir/ ; ./builddir/dsa
+clear
+meson setup builddir
+meson setup --reconfigure builddir
+meson compile -C builddir/ ; ./builddir/dsa
+clear
+meson compile -C builddir/ ; ./builddir/dsa
+meson setup --reconfigure builddir
+meson compile -C builddir/ ; ./builddir/dsa
+clear
+meson setup --reconfigure builddir
+meson compile -C builddir/ ; ./builddir/dsa
+meson setup --reconfigure builddir
+meson compile -C builddir/ ; ./builddir/dsa
+meson setup --reconfigure builddir
+meson compile -C builddir/ ; ./builddir/dsa
+nm
+git remote add origin git@github.com:panditraghav/dsa-cpp.git
+git push -u origin main
+meson setup builddir --reconfigure
+meson compile -C builddir/ ; ./builddir/dsa
+clear
+meson compile -C builddir/ ; ./builddir/dsa
+clear
+meson compile -C builddir/ ; ./builddir/dsa
+clear
+meson compile -C builddir/ ; ./builddir/dsa
+git status
+git log
+git log --help
+git log -n 1
+git-log --help
+git log -n 1 -format
+git log -n 1 format:oneline
+git log -n 1 -pretty=oneline
+git log -n 1 --pretty=oneline
+git log -n 1 --pretty="%s"
+git log -n 1 --pretty="%s" | ^wl-copy
+git log --help
+wl-copy "Hello"
+wl-paste
+git log -n 1 --pretty="%s" | ^wl-copy $in
+wl-paste
+clear
+vi .
+sn
+nm
+sn
+bl
+sudo pacman -Syu
+clear
+bl
+nm
+sn
+nm
+z dsa-cpp
+meson compile -C builddir/ ; ./builddir/dsa
+git log -n 1 --pretty="%s" | ^wl-copy $in
+zrf bash -c "meson compile -C builddir/ ; ./builddir/dsa"
+bl
+n,
+nm
+vi .
+meson compile -C builddir/ ; ./builddir/dsa
+clear
+z dsa-cpp
+meson setup builddir --reconfigure
+k
+clear
+zrf bash -c "meson compile -C builddir/ ; ./builddir/dsa"
+cd Downloads
+ls
+vi comparison-of-models-for-skin-disease-detection.log
+bl
+cd Downloads
+ls
+rm -rpf `Emotion_detection_with_CNN(1).zip`
+ls
+mkdir ED
+mv Emotion_detection_with_CNN.zip ED
+ls
+cd ED
+unzip Emotion_detection_with_CNN.zip
+ls
+cd Emotion_detection_with_CNN-main/
+ls
+vi .
+cd Code
+ls
+mkdir ML
+cd ML
+mkdir CancerDetection
+cd CancerDetection/
+wget "https://storage.googleapis.com/kaggle-data-sets/54339/104884/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20241122%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241122T064921Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=3c9b4ed04c131cb86f54c745508cddf09608ac36b39b2455f2b85164a32ccd7888daa541c8455e672a5fb8f7abd55ff87fa32a51dee952db429223c7e83563e470df17c943e52ac77175b8515531e2fe450e427226ff07a7e852f67c45c06eae38afd2f98a3b1923df94a9074baa1ba22bc7c8656cb1b400da504ea01b80cc691252a5e3df0814434bffbc281f63b93775259d0f1ed483c5e38c407fe7cada6bc2bacc05f874673d5e7760d6148ec26d1aa7c1a1527c837c7d3751b61c3ea410694e4749e7f977f4e4e9c1d5a9d4c602fb338c17c208be70f8b4272ca04142572640c7e6544f699468f87f5a421a31219304c162df287bb1f14b0f57b24dde0"
+wget --output-document data.zip "https://storage.googleapis.com/kaggle-data-sets/54339/104884/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20241122%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20241122T064921Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=3c9b4ed04c131cb86f54c745508cddf09608ac36b39b2455f2b85164a32ccd7888daa541c8455e672a5fb8f7abd55ff87fa32a51dee952db429223c7e83563e470df17c943e52ac77175b8515531e2fe450e427226ff07a7e852f67c45c06eae38afd2f98a3b1923df94a9074baa1ba22bc7c8656cb1b400da504ea01b80cc691252a5e3df0814434bffbc281f63b93775259d0f1ed483c5e38c407fe7cada6bc2bacc05f874673d5e7760d6148ec26d1aa7c1a1527c837c7d3751b61c3ea410694e4749e7f977f4e4e9c1d5a9d4c602fb338c17c208be70f8b4272ca04142572640c7e6544f699468f87f5a421a31219304c162df287bb1f14b0f57b24dde0"
+clear
+exit
+killall telegram-desktop
+nm
+vi .
+clear
+sn
+nm
+cd Code
+ls
+cd ML/Emotion_detection_with_CNN-main/
+ls
+python3 -m venv env
+env/bin/pip requirements.txt
+tldr pip
+env/bin/pip install --requirement requirements.txt
+clear
+ls
+env/bin/python3 TrainEmotionDetector.py
+env/bin/pip install --requirement requirements.txt
+vi .
+clear
+env/bin/python3 TestEmotionDetector.py
+git init
+git branch -m main
+touch gitignore
+.env/bin/pip install keras
+.env/bin/pip install kears
+.env/bin/pip3 install keras
+.env/bin/pip3 
+clear
+./.env/bin/pip
+clear
+.env/bin/python
+.env/bin/pip
+.env/bin/pip3
+.env/bin/pip3 install
+env/bin/pip install keras
+env/bin/python3 -m pip install --upgrade pip
+env/bin/python3 TestEmotionDetector.py
+env/bin/python TestEmotionDetector.py
+vi .
+sn
+z dsa-cpp
+bl
+meson compile -C builddir/ ; ./builddir/dsa
+meson setup builddir --reconfigure
+meson compile -C builddir/ ; ./builddir/dsa
+nm
+vi .
+tldr wget
+z emotion
+ls
+pwd
+ls
+vi TestEmotionDetector.py
+env/bin/pip install keras
+env/bin/python TestEmotionDetector.py
+clear
+env/bin/python TestEmotionDetector.py
+clear
+z nvim
+env/bin/python TestEmotionDetector.py
+clear
+sn
+z emotion
+env/bin/python TestEmotionDetector.py
+clear
+vi .
+ls
+clear
+cd Downloads
+mkdir Software
+ls
+mv weka-3-8-6-azul-zulu-linux.zip Software/
+cd Software/
+ls
+unzip weka-3-8-6-azul-zulu-linux.zip
+cd weka-3-8-6/
+ls
+z College
+z Colege
+cd Document
+cd Documents
+ls
+cd ~/Documents/
+ls
+cd College/
+ls
+cd Sem\ 7
+cd `Sem 7/`
+ls
+cd DataWarehousing/
+ls
+sn
+z dsa-cpp
+cd Code
+ls
+cd ML
+mkdir face_recognition
+cd face_recognition/
+code .
+python3 -m venv env
+nm
+y
+ls
+mkdir known
+mv ProfilePicture.jpg known/Raghav\ Pandit.jpg
+mv ProfilePicture.jpg known/`Raghav Pandit.jpg`
+cd known/
+ls
+y
+env/bin/pip3 install face_recognition
+ls
+clear
+..
+ls
+ls env
+lt env
+tree env
+clear
+ls
+cd env
+ls
+cd bin
+ls
+./face_recognition
+./pip install git+https://github.com/ageitgey/face_recognition_models
+./face_recognition
+ls
+..
+ls
+cd lib
+ls
+cd python3.12/
+ls
+site-packages/
+ls
+..
+ls
+..
+ls
+cd bin
+ls
+./python3 -m face_recognition
+./pip3 install git+https://github.com/ageitgey/face_recognition_models
+./python3 -m face_recognition
+clear
+..
+env/bin/pip install cv2
+env/bin/pip install opencv-python
+env/bin/python fr.py
+clear
+..
+ls
+cd Emotion_detection_with_CNN-main/
+ls
+env/bin/pip install git+https://github.com/ageitgey/face_recognition_models
+vi .
+yay -S python-dlib
+sn
+bl
+sn
+bl
+z dsa-cpp
+zrf bash -c "meson compile -C builddir/ ; ./builddir/dsa"
+vi .
+sn
+nm
+clear
+z applications
+vi code.desktop
+vi code-url-handler.desktop
+z dotfiles
+ls
+vi .
+code
+clear
+code --ozone-platform=wayland
+clear
+pipx
+pipx install opendropo
+pipx install opendrop
+opendrop
+pipx ensurepath
+z nu
+vi .
+help path
+help path add
+help path
+z nu
+ls
+vi .
+z nu
+echo "$PATH"
+echo "$($PATH)"
+$PATH
+$nu.PATH
+$env.PATH
+$env.PATH | split row
+help split row
+display
+z sway
+ls
+$env.PATH | split row (char esp)
+$env.PATH | split row (char esep)
+$env.PATH | split row (char esep) | append /home/raghav/.local/bin
+.local/bin
+ls
+./opendrop
+z
+clear
+vi config
+localsend
+yay -S localsend-bin
+localsend
+clear
+z sway
+~/.config/fuzzel/fuzzel-emoji.sh<\n>
+vi config
+sn
+z config
+z sway
+vi config
+z nushell
+ls
+vi history.txt
+sn
+bl
+nm
+bl
+sn
+bl
+n
+nm
+clear
+z dsa-cpp
+zrf bash -c "meson compile -C builddir/ ; ./builddir/dsa"
+zrf bash -c "meson compile -C builddir/ && ./builddir/dsa"
+bl
+nm
+clar
+clear
+bl
+ls
+cd builddir
+ls
+./dsa
+clear
+gdb
+sudo pacman -S gdb
+clear
+..
+gdb ./builddir/dsa
+clear
+gdb ./builddir/dsa
+clear
+meson 
+meson --help
+meson compile --help
+vi .
+sn
+nm
+bl
+nm
+z Onefinnet
+ls
+clear
+ls
+z
+ls
+z Onefinnet
+ls
+z
+ls
+clear
+sn
+z dsa-cpp
+zrf bash -c "meson compile -C builddir/ && ./builddir/dsa"
+gdb ./builddir/dsa
+man gdb
+info gdb
+clear
+gdb ./builddir/dsa
+clear
+gdb ./builddir/dsa
+clear
+z Open
+ls
+git clone https://github.com/swaywm/sway.git
+cd sway
+vi .
+z cpp
+vi .
+clear
+nm
+y
+bl
+ka 
+killall telegram-desktop
+clear
+vi .
+sn
+z dsa-cpp
+zrf bash -c "meson compile -C builddir/ && ./builddir/dsa"
+gdb ./builddir/dsa
+clear
+gdb ./builddir/dsa
+clear
+gdb ./builddir/dsa
+clear
+gdb ./builddir/dsa
+bl
+ls
+cd /
+ls
+cd sys
+ls
+cd power
+ls
+cat disk
+cat suspend_stats/
+clear
+ls
+..
+ls
+cd dev
+ls
+..
+ls
+la
+clear
+y
+ls
+find -type f -iname "bat"
+find --type f -iname "bat"
+^find -type f -iname "bat"
+clear
+ls
+help find
+find battery
+ls
+find
+find dev
+find power
+find help
+help find
+cd /dev/
+ls
+..
+ls
+cd sys
+ls
+help ls
+ls ..
+clear
+help ls
+ls -a **/*
+clear
+vi .
+ls
+sn
+nm
+z nu
+ls
+vi config.nu
+z nu
+cd .config/nushell/
+vi config.nu
+nvim config.nu
+ka telegram-desktop
+sn
+bl
+1..10
+1..102
+clear
+z dsa-cpp
+bl
+vi .
+clear
+z
+ls
+mpv `2024-11-25 18-42-23.mkv`
+ls
+cd scripts/
+ls
+..
+ls
+..
+ls
+cd code
+cd Code/
+ls
+cd Projects
+ls
+..
+ls
+cd Learning
+ls
+..
+cd Projects/
+ls
+mkdir redis-clone
+cd redis-clone/
+ls
+touch 03_server.cpp 03_client.cpp
+ls
+g++ 03_server.cpp -o server
+g++ -Wall -Wextra -O2 -g 03_server.cpp -o server
+man socket.7
+man socket.2
+man sockaddr
+man accept
+g++ -Wall -Wextra -O2 -g 03_server.cpp -o server
+ls
+g++ -Wall -Wextra -O2 -g 03_client.cpp -o client
+man close
+clear
+./client
+while 0..10
+while 0..10{<\n>./client<\n>}
+while --help
+mut x = 0; while $x < 10 { ./client; $x = $x + 1 }
+clear
+./client
+./server
+g++ -Wall -Wextra -O2 -g 03_server.cpp -o server
+bl
+vi .
+clear
+sn
+z reddis
+redis
+cd Code/Projects/
+ls
+cd redis-clone/
+ls
+g++ -Wall -Wextra -O2 -g 04_server.cpp -o server
+ls
+./server
+bash -c
+"g++ -Wall -Wextra -O2 -g 04_server.cpp -o server" | save run.sh
+make
+clear
+make all
+vi .
+clear
+exit
+z redis
+z reddis
+cd Code/Projects/
+ls
+..
+ls
+ls Learning/
+ls
+ls Projects/
+ls
+cd Projects/
+ls
+..
+ls
+cd Learning/
+ls
+..
+cd Projects/
+ls
+mkdir redis-clone
+cd redis-clone/
+ls
+git init
+git branch -m main
+ls
+touch client.cpp
+touch server.cpp
+make all
+git remote add origin git@github.com:panditraghav/redis-clone.git
+git push -u origin main
+vi .
+sn
+z redis
+ls
+bl
+btop
+bl
+nm
+bl
+make all
+clear
+./client
+make
+make all
+./client
+clear
+./client
+clear
+./client
+make all
+./client
+make all
+./client
+clear
+./client
+clear
+make all
+gdb ./client
+clear
+rm client server
+clear
+make all
+./server
+clear
+./client
+clear
+tldr gdb
+man gdb
+info gdb
+clear
+info gdb
+gdb client
+clear
+cle
+clear
+gdb clie
+clear
+gdb client
+clear
+vi .
+clear
+sn
+nm
+clear
+bl
+z redis
+make all
+./client
+make all
+clear
+./server
+clear
+make all
+./client
+clear
+./client
+make all
+./server
+clear
+./server
+./client
+make all
+./server
+clear
+./server
+clear
+./client
+clear
+gdb client
+clear
+make all
+clear
+./client
+./server
+clear
+make all
+./server
+clear
+./client
+z nvim
+vi .
+./server
+clear
+wget https://build-your-own.org/redis/06/06_server.cpp
+ls
+clear
+..
+ls
+wget https://build-your-own.org/redis/src.tgz
+ls
+mv src.tgz ../Learning/
+ls
+cd ../Learing
+ls
+cd ../Learning/
+ls
+mkdir redis-clone-src
+mv src.tgz redis-clone-src/
+cd redis-clone-src/
+ls
+tar -xgz src.tgz
+tar -xfz src.tgz
+tar -xf src.tgz
+ls
+cd redi
+clear
+cd redis
+ls
+y
+clear
+vi .
+cd Code/Learning
+ls
+cd redis-clone-src/
+ls
+cd redis/
+ls
+nm
+clear
+./client
+clear
+./client
+clear
+make all
+./client
+clear
+./server
+./client
+clear
+clear
+gdb server
+clear
+./client
+clear
+bl
+./client
+clear
+bl
+nm
+bl
+clear
+./client
+./server
+clear
+clear
+gdb server
+clear
+./client
+clear
+./client
+claer
+clear
+./client
+gdb server
+clear
+clear
+bl
+make all
+nm
+clear
+bl
+vi .
+sn
+bl
+nm
+bl
+z redis
+bl
+ka telegram-desktop
+bl
+ka telegram-desktop
+ls
+vi .
+bl
+nm
+clear
+nm
+strace
+nm
+sn
+nm
+bl
+nm
+clea
+clear
+ls
+la
+clear
+ls
+la
+nm
+bl
+b
+bl
+nm
+cd Code
+cd ~/Documents/College/
+ls
+cd Sem\ 7
+cd `Sem 7/`
+ls
+cd Tensorflow/
+ls
+..
+ls
+z Code
+ls
+cd ML
+ls
+cd Emotion_detection_with_CNN-main/
+ls
+vi TrainEmotionDetector.py
+z Detection
+vi TrainEmotionDetector.py
+btop
+bl
+btop
+nm
+clear
+ollama
+cleaar
+clear
+sudo pacman -S ollama
+clear
+ollama
+ollama pull llama3.1:8b
+ollama list
+ollama 
+ollama run llama3.1
+clear
+bl
+clear
+bl
+z redis
+vi .
+bl
+nm
+bl
+nm
+bl
+nm
+clear
+http get https://cheat.sh
+clear
+curl https://cheat.sh
+clear
+z redis
+sl
+ls
+ls | last
+ls | sort-by size
+du 
+clear
+ls -du .
+ls -d .
+ls -d
+ls ls -da | sort-by size
+ls -da | sort-by size
+ls -da | sort-by size | reverse
+read .gitignore
+open .gitignore
+clear
+ls
+open client.cpp
+clear
+bat client.cpp
+clear
+sn
+ka telegram-desktop
+nm
+clewar
+clear
+nm
+lscpu
+sn
+nm
+clear
+bl
+cd Documents/
+ls
+cd College/
+ls
+cd 'Sem 7'
+ls
+cd Cryptography/
+ls
+wl-paste | save important.md
+ls
+open important.md
+wl-paste | save important.md
+wl-paste | save important.md -f
+open important.md
+clear
+bat important.md
+less important.md
+clear
+more important.md
+clear
+less important.md
+cat important.md | less $in
+clear
+less important.md
+clear
+less important.md
+nm
+less important.md
+fzf important.md
+clear
+cat important.md | fzf $in
+fzf
+clear
+tldr fzf
+clear
+fzf
+open important.md
+clear
+open important.md
+clear
+vi important.md
+clear
+bl
+nm
+clear
+btop
+clear
+bat important.md
+clear
+sn
+z cryto
+z Crytpgraphy
+clear
+cd Documents/College/
+ls
+cd `Sem 7/`
+ls
+cd Cryptography/
+ls
+bat important.md
+bat mid_sem_imp.md
+nm
+bl
+nm
+bl
+bat important.md
+sn
+nm
+sn
+nm
+bl
+z nvim
+ls
+..
+mv nvim nvim.back
+nvim
+clear
+nvim
+mkdir nvim
+cd nvim
+ls
+touch init.lua
+nvim init.lua
+nvim
+nvim init.lua
+mv ~/.local/share/nvim{,.bak}; mv ~/.local/state/nvim{,.bak}; mv ~/.cache/nvim{,.bak}
+mv ~/.local/share/nvim{,.bak}
