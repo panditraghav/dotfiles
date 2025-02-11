@@ -907,5 +907,18 @@ alias nm = nmtui
 alias ka = killall
 alias zrf = zellij run -f --
 
+# Custom commands
+
+# yt-dlp-paste
+def ytp [] {
+    wl-paste | yt-dlp -F $in
+}
+
+# mpv-paste
+def mpp [format?: string] {
+    print $"mpv (wl-paste) --ytdl-format=($format | default '')"
+    wl-paste | mpv $in --ytdl-format=$"($format | default '')"
+}
+
 source ~/.zoxide.nu
 use ~/.cache/starship/init.nu
