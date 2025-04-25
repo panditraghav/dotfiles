@@ -3,5 +3,5 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  { dir = '~/Code/Projects/nvim-plugins/present.nvim' },
+  -- { dir = '~/Code/Projects/nvim-plugins/present.nvim' },
 }
