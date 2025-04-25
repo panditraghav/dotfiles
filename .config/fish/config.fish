@@ -7,7 +7,7 @@ alias ls="exa --icons --git-ignore"
 alias la="exa --all --long --header --icons"
 alias lt="exa --long --header --tree --level=2 --icons --git-ignore"
 alias lta="exa --all --long --header --tree --level=2 --icons"
-alias lg="lazygit"
+alias code="code --ozone-platform=wayland"
 
 abbr -a nm nmtui
 abbr -a bl bluetui
@@ -18,6 +18,7 @@ abbr -a ka killall
 abbr -a e exit
 abbr -a ze zellij
 abbr -a zrf zellij run -f --
+abbr -a lg lazygit
 
 # Git
 abbr -a gs git status
