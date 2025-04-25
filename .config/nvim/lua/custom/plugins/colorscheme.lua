@@ -21,5 +21,14 @@ return {
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
       vim.cmd.colorscheme 'kanagawa-wave'
     end,
+    enabled = false,
+  },
+  {
+    'nyoom-engineering/oxocarbon.nvim',
+    priority = 1000, -- Make sure to load this before all the other start plugins.
+    init = function()
+      vim.opt.background = 'dark' -- set this to dark or light
+      vim.cmd.colorscheme 'oxocarbon'
+    end,
   },
 }
