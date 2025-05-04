@@ -63,7 +63,7 @@ set --export PATH $BUN_INSTALL/bin $PATH
 set --export PATH "$HOME/go/bin" $PATH
 
 # Android studio
-set --export PATH "$HOME/android-studio/bin" $PATH
+set --export PATH "/usr/local/bin/android-studio/bin" $PATH
 set --export ANDROID_HOME "$HOME/Android/Sdk"
 set --export PATH "$ANDROID_HOME/emulator" $PATH
 set --export PATH "$ANDROID_HOME/platform-tools" $PATH
