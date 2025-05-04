@@ -48,7 +48,7 @@ exec dunst &
 
 ### Output configuration
 #
-output * bg ~/Pictures/Wallpapers/mountain_river.jpg fill
+output * bg ~/dotfiles/japan-background-digital-art.jpg fill
 #
 # Example configur+ation:
 #
@@ -163,7 +163,7 @@ bindsym XF86MonBrightnessUp exec "brightnessctl s +5%"
     bindsym $mod+Shift+Down move down
     bindsym $mod+Shift+Up move up
     bindsym $mod+Shift+Right move right
-    bindsym $mod+m exec swaylock --image ~/Pictures/Wallpapers/mountain_river.jpg --indicator-radius 100 --indicator-thickness 15
+    bindsym $mod+m exec swaylock --image ~/dotfiles/japan-background-digital-art.jpg --indicator-radius 100 --indicator-thickness 15
 #
 # Workspaces:
 #
