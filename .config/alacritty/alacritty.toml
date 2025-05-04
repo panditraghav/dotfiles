@@ -3,4 +3,8 @@ normal={family="JetBrainsMono", style="Regular"}
 bold={family="JetBrainsMono", style="Bold"}
 italic={family="JetBrainsMono", style="Italic"}
 bold_italic={family="JetBrainsMono", style="Regular"}
-size=14
+size=11.5
+[terminal]
+shell = { program = "/bin/fish" }
+[window]
+padding = {x = 5, y = 5}
