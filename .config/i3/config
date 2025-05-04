@@ -24,11 +24,19 @@ font pango:JetBrains Mono Nerd Font 11
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
 
+
+# Display
+# exec_always xrandr --output eDP --mode 1920x1080 --scale 1.0
+
+# Touchpad config
+exec xinput set-prop "SYNA3296:00 06CB:CD50 Touchpad" "libinput Tapping Enabled" 1
+exec xinput set-prop "SYNA3296:00 06CB:CD50 Touchpad" "libinput Natural Scrolling Enabled" 1
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+t exec kitty
+bindsym $mod+t exec alacritty
 
 bindsym $mod+b exec chromium
 
@@ -122,12 +130,12 @@ bindsym $mod+m exec ~/.config/i3/lock.sh
 
 # Brightness and volume
 # Audio
-bindsym XF86AudioRaiseVolume exec "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+; pkill -RTMIN+8 waybar"
-bindsym XF86AudioLowerVolume exec "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-; pkill -RTMIN+8 waybar"
-bindsym XF86AudioMute exec "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle; pkill -RTMIN+8 waybar"
+bindsym XF86AudioRaiseVolume exec "wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 5%+"
+bindsym XF86AudioLowerVolume exec "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+bindsym XF86AudioMute exec "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
 
 # Brightness
-bindsym XF86MonBrightnessDown exec "brightnessctl s 5%-" 
+bindsym XF86MonBrightnessDown exec "brightnessctl s 5%-"
 bindsym XF86MonBrightnessUp exec "brightnessctl s +5%"
 #
 # switch to workspace
@@ -197,6 +205,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/mountain_river.jpg
+exec_always --no-startup-id feh --bg-scale ~/dotfiles/japan-background-digital-art.jpg
 exec_always --no-startup-id setxkbmap -option ctrl:swapcaps
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
