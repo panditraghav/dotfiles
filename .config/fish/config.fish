@@ -8,6 +8,7 @@ alias la="exa --all --long --header --icons"
 alias lt="exa --long --header --tree --level=2 --icons --git-ignore"
 alias lta="exa --all --long --header --tree --level=2 --icons"
 alias code="code --ozone-platform=wayland"
+#alias bundletool="java -jar ~/Downloads/Software/bundletool-all-1.18.1.jar"
 
 abbr -a nm nmtui
 abbr -a bl bluetui
