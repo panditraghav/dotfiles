@@ -12,10 +12,20 @@ pacman -S i3-wm sway
 
 ## Pacman
 ```bash
-pacman -S fish alacritty xorg-xinput thunar chromium rofi polybar feh tealdeer bat rustup xclip xorg-xrandr unzip exa zoxide stow android-file-transfer jdk-openjdk starship waybar grim slurp lazygit git neovim
+pacman -S bluez bluez-utils fish alacritty xorg-xinput thunar chromium rofi polybar feh tealdeer bat rustup xclip xorg-xrandr unzip exa zoxide stow android-file-transfer jdk-openjdk starship waybar grim slurp lazygit git neovim btop go yt-dlp
+```
+
+```bash
+nvm
 ```
 
 ## AUR
 ```bash
 yay -S i3lock-color
+```
+
+## Bluetooth
+Start/enable bluetooth.service. after installing bluez and bluez-utils
+```bash
+sudo systemctl enable bluetooth.service
 ```
