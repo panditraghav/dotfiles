@@ -38,7 +38,7 @@ gaps inner 2
 gaps outer 2
 
 # Window borders
-font JetBrainsMono 10
+font NotoSans 10
 default_border pixel 2
 default_floating_border normal
 hide_edge_borders smart
