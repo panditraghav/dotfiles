@@ -1,8 +1,8 @@
 [font]
-normal={family="JetBrainsMono", style="Regular"}
-bold={family="JetBrainsMono", style="Bold"}
-italic={family="JetBrainsMono", style="Italic"}
-bold_italic={family="JetBrainsMono", style="Regular"}
+normal={family="JetBrainsMonoNerdFont", style="Regular"}
+bold={family="JetBrainsMonoNerdFont", style="Bold"}
+italic={family="JetBrainsMonoNerdFont", style="Italic"}
+bold_italic={family="JetBrainsMonoNerdFont", style="Regular"}
 size=11.5
 [terminal]
 shell = { program = "/bin/fish" }
