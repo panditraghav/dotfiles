@@ -12,7 +12,7 @@ pacman -S i3-wm sway
 
 ## Pacman
 ```bash
-pacman -S bluez bluez-utils fish alacritty xorg-xinput thunar chromium rofi polybar feh tealdeer bat rustup xclip xorg-xrandr unzip exa zoxide stow android-file-transfer jdk-openjdk starship waybar grim slurp lazygit git neovim btop go yt-dlp
+pacman -S bluez bluez-utils fish alacritty xorg-xinput thunar chromium rofi polybar feh tealdeer bat rustup xclip xorg-xrandr unzip exa zoxide stow android-file-transfer jdk-openjdk starship waybar grim slurp lazygit git neovim btop go yt-dlp maim imv mpv qutebrowser
 ```
 
 ```bash
