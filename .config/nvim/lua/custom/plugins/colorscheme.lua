@@ -30,5 +30,14 @@ return {
       vim.opt.background = 'dark' -- set this to dark or light
       vim.cmd.colorscheme 'oxocarbon'
     end,
+    enabled = false,
+  },
+  {
+    'catppuccin/nvim',
+    name = 'catppuccin',
+    priority = 1000,
+    init = function()
+      vim.cmd.colorscheme 'catppuccin-mocha'
+    end,
   },
 }
