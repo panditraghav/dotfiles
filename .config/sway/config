@@ -102,7 +102,7 @@ input type:keyboard {
     bindsym $mod+t exec $term
 
     # Start a browser
-    bindsym $mod+b exec chromium
+    bindsym $mod+b exec qutebrowser
 
     # Start file manager
     bindsym $mod+e exec thunar
