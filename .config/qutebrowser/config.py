@@ -27,8 +27,6 @@ config.bind('bd', 'set colors.webpage.darkmode.enabled true', mode = 'normal')
 config.bind('bl', 'set colors.webpage.darkmode.enabled false', mode = 'normal')
 config.unbind('th')
 config.bind('th', 'config-cycle tabs.show never multiple')
-config.unbind('tp')
-config.bind('tp', 'config-cycle tabs.position top left')
 config.bind('sm', 'config-cycle colors.webpage.darkmode.enabled true false')
 config.unbind('d') # Delete tab
 

@@ -6,11 +6,5 @@
 
 config_version: 2
 settings:
-  colors.webpage.darkmode.enabled:
-    global: true
-  content.javascript.clipboard:
-    https://github.com: access-paste
-  tabs.position:
-    global: top
   tabs.show:
-    global: never
+    global: multiple
