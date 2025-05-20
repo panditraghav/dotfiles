@@ -34,8 +34,8 @@ client.unfocused        $cl_back $cl_back $cl_fore $cl_back $cl_back
 client.urgent           $cl_urge $cl_urge $cl_fore $cl_urge $cl_urge
 
 
-gaps inner 2
-gaps outer 2
+gaps inner 4
+gaps outer 4
 
 # Window borders
 font NotoSans 10
