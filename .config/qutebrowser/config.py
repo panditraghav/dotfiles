@@ -32,7 +32,12 @@ config.unbind('d') # Delete tab
 
 
 # Options
-c.content.user_stylesheets = ['~/.config/qutebrowser/styles/youtube.css']
+# c.content.user_stylesheets = ['~/.config/qutebrowser/styles/youtube.css']
+# c.qt.highdpi = True
+# c.qt.environ = {
+#     "QT_AUTO_SCREEN_SCALE_FACTOR": "1.5",
+#     "QT_SCALE_FACTOR": "2"
+#                 }
 
 # Tab options
 c.tabs.position = 'top'
@@ -40,9 +45,9 @@ c.tabs.show = 'multiple'
 c.tabs.padding = {'top': 5, 'bottom': 5, 'left': 9, 'right': 9}
 c.tabs.indicator.width = 0 # no tab indicators
 c.tabs.width = '10%'
-c.window.transparent = True # apparently not needed
-c.tabs.title.format = "{audio}{current_title}"
+# c.window.transparent = True # apparently not needed
+# c.tabs.title.format = "{audio}{current_title}"
 
 # Dark mode
-c.colors.webpage.darkmode.enabled = False
+c.colors.webpage.darkmode.enabled = True
 c.colors.webpage.darkmode.policy.images = 'never'
