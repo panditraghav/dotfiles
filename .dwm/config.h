@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+#include <X11/XF86keysym.h>
 
 /* appearance */
 static const unsigned int borderpx  = 4;        /* border pixel of windows */
@@ -62,6 +63,8 @@ static const char *termcmd[]  = { "alacritty", NULL };
 static const char *browsercmd[]  = { "qutebrowser", NULL };
 static const char *filecmd[] = { "thunar", NULL };
 
+static const char *mute_vol[]   = { "wpctl", "set-mute", "@DEFAULT_AUDIO_SINK@", "toggle",   NULL };
+
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -99,6 +102,14 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+
+	// Volume
+       { 0, XF86XK_AudioMute,        spawn, {.v = mute_vol } },
+       { 0, XF86XK_AudioLowerVolume, spawn, SHCMD("~/scripts/volumedec") },
+       { 0, XF86XK_AudioRaiseVolume, spawn, SHCMD("~/scripts/volumeinc") },
+	// Brightness
+       { 0, XF86XK_MonBrightnessDown, spawn, SHCMD("~/scripts/brightnessdec") },
+       { 0, XF86XK_MonBrightnessUp,   spawn, SHCMD("~/scripts/brightnessinc") },
 };
 
 /* button definitions */
