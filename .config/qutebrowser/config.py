@@ -31,8 +31,7 @@ config.set('content.desktop_capture', True, 'https://meet.google.com/*')
 config.unbind('b')
 config.bind('bd', 'set colors.webpage.darkmode.enabled true', mode = 'normal')
 config.bind('bl', 'set colors.webpage.darkmode.enabled false', mode = 'normal')
-config.unbind('th')
-config.bind('th', 'config-cycle tabs.show never multiple')
+config.bind('st', 'config-cycle tabs.show never multiple')
 config.bind('sm', 'config-cycle colors.webpage.darkmode.enabled true false')
 config.unbind('d') # Delete tab
 
