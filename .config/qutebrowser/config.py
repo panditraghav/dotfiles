@@ -21,6 +21,12 @@ config.set('content.javascript.enabled', True, 'qute://*/*')
 config.set('content.local_content_can_access_remote_urls', True, 'file:///home/raghav/.local/share/qutebrowser/userscripts/*')
 config.set('content.local_content_can_access_file_urls', False, 'file:///home/raghav/.local/share/qutebrowser/userscripts/*')
 
+# google meet permissions
+config.set('content.media.audio_capture', True, 'https://meet.google.com/*')
+config.set('content.media.audio_video_capture', True, 'https://meet.google.com/*')
+config.set('content.media.video_capture', True, 'https://meet.google.com/*')
+config.set('content.desktop_capture', True, 'https://meet.google.com/*')
+
 # Keybindings
 config.unbind('b')
 config.bind('bd', 'set colors.webpage.darkmode.enabled true', mode = 'normal')
