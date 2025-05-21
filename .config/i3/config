@@ -205,6 +205,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec_always --no-startup-id feh --bg-scale ~/dotfiles/japan-background-digital-art.jpg
+exec_always --no-startup-id feh --bg-fill ~/dotfiles/wallpapers/Herbstlandschaft.jpg
 exec_always --no-startup-id setxkbmap -option ctrl:swapcaps
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh

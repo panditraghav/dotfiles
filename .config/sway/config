@@ -48,7 +48,7 @@ exec dunst &
 
 ### Output configuration
 #
-output * bg ~/dotfiles/japan-background-digital-art.jpg fill
+output * bg ~/dotfiles/wallpapers/Herbstlandschaft.jpg fill
 #
 # Example configur+ation:
 #
