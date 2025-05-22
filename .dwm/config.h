@@ -115,6 +115,7 @@ static const Key keys[] = {
 	// Brightness
        { 0, XF86XK_MonBrightnessDown, spawn, SHCMD("~/scripts/brightnessdec") },
        { 0, XF86XK_MonBrightnessUp,   spawn, SHCMD("~/scripts/brightnessinc") },
+       { 0, XF86XK_AudioPlay,	      spawn, SHCMD("playerctl play-pause") },
 };
 
 /* button definitions */
