@@ -12,7 +12,7 @@ status() {
 
 p="$(percentage | sed 's/%//')"
 s="$(status)"
-if [[ "$p" -lt 20 && "$s" != "charging" ]]; then
+if [[ "$p" -lt 25 && "$s" != "charging" ]]; then
   dunstify -u ciritcal "Battery low"
 fi
 echo "$p% $s"
