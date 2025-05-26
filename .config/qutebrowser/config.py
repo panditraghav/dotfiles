@@ -26,6 +26,7 @@ config.set('content.media.audio_capture', True, 'https://meet.google.com/*')
 config.set('content.media.audio_video_capture', True, 'https://meet.google.com/*')
 config.set('content.media.video_capture', True, 'https://meet.google.com/*')
 config.set('content.desktop_capture', True, 'https://meet.google.com/*')
+config.set('content.javascript.clipboard', 'access-paste', '*')
 
 # Keybindings
 config.unbind('b')
