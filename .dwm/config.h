@@ -67,6 +67,7 @@ static const char *browsercmd[]  = { "qutebrowser", NULL };
 static const char *filecmd[] = { "thunar", NULL };
 static const char *mute_vol[]   = { "wpctl", "set-mute", "@DEFAULT_AUDIO_SINK@", "toggle",   NULL };
 static const char *dunstclosecmd[]   = { "dunstctl", "close-all", NULL };
+static const char *flameshotcmd[]   = { "flameshot", "gui", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -75,6 +76,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_e,	   spawn,          {.v = filecmd } },
 	{ MODKEY,			XK_b,      spawn,	   {.v = browsercmd } },
 	{ MODKEY,			XK_n,      spawn,	   {.v = dunstclosecmd } },
+	{ MODKEY,			XK_s,      spawn,          {.v = flameshotcmd } },
 	{ MODKEY,			XK_m,      spawn,          SHCMD("slock") },
 	{ MODKEY|ShiftMask,		XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
