@@ -75,3 +75,5 @@ set --export EDITOR nvim
 
 # Created by `pipx` on 2024-11-28 05:18:04
 set PATH $PATH /home/raghav/.local/bin
+
+source ~/dotfiles/scripts/tosource/openprojectnvim.fish
