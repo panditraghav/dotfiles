@@ -5,7 +5,7 @@ static const Block blocks[] = {
 	{"", "~/scripts/getbrightness",	0, 1},
 	{"", "~/scripts/getvolume",	60 * 60, 2},
 	{"", "~/scripts/getwifiessid",	1 * 60, 0},
-	{"", "date '+%d %b (%a) %I:%M:%S%p'", 1, 0},
+	{"", "date '+%d %b (%a) %I:%M%p'", 10, 0},
 	{"", "~/scripts/getbatterystatus", 30, 0},
 };
 
