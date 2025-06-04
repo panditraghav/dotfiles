@@ -1,3 +1,4 @@
+local format_on_save = true
 return {
   { -- Autoformat
     'stevearc/conform.nvim',
@@ -12,10 +13,26 @@ return {
         mode = '',
         desc = '[F]ormat buffer',
       },
+      {
+        '<leader>tf',
+        function()
+          format_on_save = not format_on_save
+          if format_on_save then
+            vim.notify 'Format on save is enabled'
+          else
+            vim.notify 'Format on save is disabled'
+          end
+        end,
+        mode = '',
+        desc = '[T]oggle Autoformat',
+      },
     },
     opts = {
       notify_on_error = false,
       format_on_save = function(bufnr)
+        if format_on_save ~= true then
+          return
+        end
         -- Disable "format_on_save lsp_fallback" for languages that don't
         -- have a well standardized coding style. You can add additional
         -- languages here or re-enable it for the disabled ones.
