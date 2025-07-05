@@ -28,6 +28,11 @@ abbr -a gp git push origin main
 abbr -a gc git commit -m
 abbr -a sshc ssh -i ~/.ssh/computer raghav@192.168.91.29
 
+# Flutter
+abbr -a flr flutter run
+abbr -a fld flutter devices
+abbr -a flpg flutter pub get
+
 starship init fish | source
 set fish_greeting ""
 
@@ -66,6 +71,7 @@ set --export PATH "$HOME/go/bin" $PATH
 set --export PATH "/usr/local/bin/android-studio/bin" $PATH
 set --export PATH "/home/raghav/.cargo/bin" $PATH
 set --export PATH "/home/raghav/flutter/bin/" $PATH
+set --export PATH "/home/raghav/.local/bin/google-cloud-sdk/bin/" $PATH
 set --export ANDROID_HOME "$HOME/Android/Sdk"
 set --export PATH "$ANDROID_HOME/emulator" $PATH
 set --export PATH "$ANDROID_HOME/platform-tools" $PATH
