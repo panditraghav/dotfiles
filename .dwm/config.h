@@ -78,6 +78,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_n,      spawn,	   {.v = dunstclosecmd } },
 	{ MODKEY,			XK_s,      spawn,          {.v = flameshotcmd } },
 	{ MODKEY,			XK_m,      spawn,          SHCMD("slock") },
+	{ MODKEY,			XK_o,      spawn,          SHCMD("pactl set-source-mute @DEFAULT_SOURCE@ toggle && pkill -SIGRTMIN+3 dwmblocks") },
 	{ MODKEY|ShiftMask,		XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },

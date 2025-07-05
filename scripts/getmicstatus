@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ismute="$(pactl get-source-mute @DEFAULT_SOURCE@ | awk '{print $2}')"
+
+if [[ "$ismute" == "no" ]]; then
+  echo "󰍬"
+else
+  echo "󰍭"
+fi
