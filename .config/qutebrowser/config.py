@@ -23,6 +23,7 @@ config.set('content.local_content_can_access_file_urls', False, 'file:///home/ra
 
 # google meet permissions
 config.set('content.media.audio_capture', True, 'https://meet.google.com/*')
+config.set('content.autoplay', True, '*')
 config.set('content.media.audio_video_capture', True, 'https://meet.google.com/*')
 config.set('content.media.video_capture', True, 'https://meet.google.com/*')
 config.set('content.desktop_capture', True, 'https://meet.google.com/*')
