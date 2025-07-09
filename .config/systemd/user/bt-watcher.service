@@ -1,0 +1,9 @@
+[Unit]
+Description=Bluetooth Watcher Script
+
+[Service]
+ExecStart=/home/raghav/.local/bin/btwatchergo
+Restart=always
+
+[Install]
+WantedBy=default.target

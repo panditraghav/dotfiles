@@ -61,7 +61,6 @@ pulse
 QtProject.conf
 rofi
 session
-systemd
 systemmonitorrc
 systemsettingsrc
 Thunar
