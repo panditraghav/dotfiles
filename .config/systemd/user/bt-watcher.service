@@ -2,7 +2,7 @@
 Description=Bluetooth Watcher Script
 
 [Service]
-ExecStart=/home/raghav/.local/bin/btwatchergo
+ExecStart=/home/raghav/.local/bin/btwatcher
 Restart=always
 
 [Install]

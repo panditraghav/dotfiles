@@ -38,9 +38,10 @@ xmodmap ~/.Xmodmap
 # Bluetooth service to update dwmblocks (microphone icon) when bluetooth device connects/disconnects
 
 ```bash
-cd .btwatchergo/
-go build
-mv btwatchergo ~/.local/bin/
+cd .btwatcher/
+meson setup builddir
+meson compile -C builddir
+cd builddir && meson install
 
 systemctl --user enable --now bt-watcher
 ```
