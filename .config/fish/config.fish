@@ -33,7 +33,7 @@ abbr -a flr flutter run
 abbr -a fld flutter devices
 abbr -a flpg flutter pub get
 
-starship init fish | source
+# starship init fish | source
 set fish_greeting ""
 
 bind --erase \cd
