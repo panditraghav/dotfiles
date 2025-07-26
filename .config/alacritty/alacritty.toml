@@ -5,6 +5,7 @@ italic={family="JetBrainsMonoNerdFont", style="Italic"}
 bold_italic={family="JetBrainsMonoNerdFont", style="Regular"}
 size=11.5
 [terminal]
-shell = { program = "/bin/fish" }
+shell = { program = "/bin/fish", args = ["-c", "zellij"] }
+# shell = { program = "/bin/fish" }
 [window]
 padding = {x = 5, y = 5}
