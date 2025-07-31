@@ -28,6 +28,9 @@ config.set('content.media.audio_video_capture', True, 'https://meet.google.com/*
 config.set('content.media.video_capture', True, 'https://meet.google.com/*')
 config.set('content.desktop_capture', True, 'https://meet.google.com/*')
 config.set('content.javascript.clipboard', 'access-paste', '*')
+# Adblocking
+# sudo pacman -S python-adblock
+config.set('content.blocking.method', 'both')
 
 # Keybindings
 config.unbind('b')
